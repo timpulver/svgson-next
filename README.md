@@ -40,6 +40,8 @@ svgson(`<svg>
     y2= "150">
   </line>
 </svg>`)
+  .then(svg => console.log(svg))
+  .catch(e => console.error(e));
 
 /*
   {
